@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TETCOS_NETSIM>
+<SPECIFIC_NETWORK_BASED INCLUDE="NONE" VALUES="Internetworks">
+<Log FileName="IEEE_802_11_RADIO_MEASUREMENTS_LOG" DisplayName="IEEE802.11 Radio Measurements Log" Status="Disable" Type="Main"/>
+<Log FileName="IEEE802_11_BACKOFF_LOG" DisplayName="IEEE 802.11 Backoff Log" Status="Disable" Type="Main"/>
+<Log FileName="IEEE802_11_LOG" DisplayName="IEEE 802.11 Log" Status="Disable" Type="Main"/>
+<Log FileName="OSPF_LOG" DisplayName="OSPF Log" Status="Disable" Type="Main"/>
+<Log FileName="OSPF_HELLO_LOG" DisplayName="OSPF Hello Log" Status="Disable" Type="Main"/>
+<Log FileName="TCP_LOG" DisplayName="TCP Log" Status="Disable" Type="Main"/>
+</SPECIFIC_NETWORK_BASED>
+<SPECIFIC_NETWORK_BASED INCLUDE="NONE" VALUES="Pure_Aloha">
+<Log FileName="TCP_LOG" DisplayName="TCP Log" Status="Disable" Type="Additional"/>
+</SPECIFIC_NETWORK_BASED>
+<SPECIFIC_NETWORK_BASED INCLUDE="NONE" VALUES="Slotted_Aloha">
+<Log FileName="TCP_LOG" DisplayName="TCP Log" Status="Disable" Type="Additional"/>
+</SPECIFIC_NETWORK_BASED>
+<SPECIFIC_NETWORK_BASED INCLUDE="NONE" VALUES="GSM">
+<!--<Log FileName="TCP_LOG" DisplayName="TCP Log" Status="Disable" Type="Additional"/>-->
+</SPECIFIC_NETWORK_BASED>
+<SPECIFIC_NETWORK_BASED INCLUDE="NONE" VALUES="CDMA">
+<!--<Log FileName="TCP_LOG" DisplayName="TCP Log" Status="Disable" Type="Additional"/>-->
+</SPECIFIC_NETWORK_BASED>
+<SPECIFIC_NETWORK_BASED INCLUDE="NONE" VALUES="Mobile_Adhoc_Networks">
+<Log FileName="IEEE_802_11_RADIO_MEASUREMENTS_LOG" DisplayName="IEEE802.11 Radio Measurements Log" Status="Disable" Type="Main"/>
+<Log FileName="IEEE802_11_BACKOFF_LOG" DisplayName="IEEE 802.11 Backoff Log" Status="Disable" Type="Main"/>
+<Log FileName="IEEE802_11_LOG" DisplayName="IEEE 802.11 Log" Status="Disable" Type="Main"/>
+<Log FileName="OSPF_LOG" DisplayName="OSPF Log" Status="Disable" Type="Additional"/>
+<Log FileName="OSPF_HELLO_LOG" DisplayName="OSPF Hello Log" Status="Disable" Type="Additional"/>
+<Log FileName="TCP_LOG" DisplayName="TCP Log" Status="Disable" Type="Additional"/>
+<Log FileName="MOBILITY_LOG" DisplayName="Mobility Log" Status="Disable" Type="Main"/>
+</SPECIFIC_NETWORK_BASED>
+<SPECIFIC_NETWORK_BASED INCLUDE="NONE" VALUES="Wsn">
+<Log FileName="IEEE802_15_4_RADIO_MEASUREMENTS_LOG" DisplayName="IEEE802.15.4 Radio Measurements Log" Status="Disable" Type="Main"/>
+<Log FileName="TCP_LOG" DisplayName="TCP Log" Status="Disable" Type="Additional"/>
+ <Log FileName="MOBILITY_LOG" DisplayName="Mobility Log" Status="Disable" Type="Main"/>
+</SPECIFIC_NETWORK_BASED>
+<SPECIFIC_NETWORK_BASED INCLUDE="NONE" VALUES="Internet_of_Things">
+<Log FileName="IEEE802_15_4_RADIO_MEASUREMENTS_LOG" DisplayName="IEEE802.15.4 Radio Measurements Log" Status="Disable" Type="Main"/>
+<Log FileName="IEEE_802_11_RADIO_MEASUREMENTS_LOG" DisplayName="IEEE802.11 Radio Measurements Log" Status="Disable" Type="Additional"/>
+<Log FileName="IEEE802_11_BACKOFF_LOG" DisplayName="IEEE 802.11 Backoff Log" Status="Disable" Type="Additional"/>
+<Log FileName="IEEE802_11_LOG" DisplayName="IEEE 802.11 Log" Status="Disable" Type="Additional"/>
+<Log FileName="OSPF_LOG" DisplayName="OSPF Log" Status="Disable" Type="Additional"/>
+<Log FileName="OSPF_HELLO_LOG" DisplayName="OSPF Hello Log" Status="Disable" Type="Additional"/>
+<Log FileName="TCP_LOG" DisplayName="TCP Log" Status="Disable" Type="Additional"/>
+<Log FileName="MOBILITY_LOG" DisplayName="Mobility Log" Status="Disable" Type="Main"/>
+</SPECIFIC_NETWORK_BASED>
+<SPECIFIC_NETWORK_BASED INCLUDE="NONE" VALUES="Cognitive_Radio_Networks">
+<Log FileName="IEEE_802_11_RADIO_MEASUREMENTS_LOG" DisplayName="IEEE802.11 Radio Measurements Log" Status="Disable" Type="Additional"/>
+<Log FileName="OSPF_LOG" DisplayName="OSPF Log" Status="Disable" Type="Additional"/>
+<Log FileName="OSPF_HELLO_LOG" DisplayName="OSPF Hello Log" Status="Disable" Type="Additional"/>
+<Log FileName="TCP_LOG" DisplayName="TCP Log" Status="Disable" Type="Additional"/>
+</SPECIFIC_NETWORK_BASED>
+<SPECIFIC_NETWORK_BASED INCLUDE="NONE" VALUES="5G_NR_mmWave">
+<Log FileName="LTENR_Radio_Measurements_Log" DisplayName="LTENR Radio Measurements Log" Status="Disable" Type="Main"/>
+<Log FileName="LTENR_Radio_Resource_Allocation" DisplayName="LTENR Resource Allocation Log" Status="Disable" Type="Main"/>
+<Log FileName="LTENR_HANDOVER_TTT_LOG" DisplayName="LTENR Handover TTT Log" Status="Disable" Type="Main"/>
+<Log FileName="LTENR_CODEBLOCK_LOG" DisplayName="LTENR Code Block Log" Status="Disable" Type="Main"/>
+<Log FileName="LTENR_OLLA_LOG" DisplayName="LTENR OLLA Log" Status="Disable" Type="Main"/>
+<Log FileName="IEEE_802_11_RADIO_MEASUREMENTS_LOG" DisplayName="IEEE802.11 Radio Measurements Log" Status="Disable" Type="Additional"/>
+<Log FileName="IEEE802_11_BACKOFF_LOG" DisplayName="IEEE 802.11 Backoff Log" Status="Disable" Type="Additional"/>
+<Log FileName="IEEE802_11_LOG" DisplayName="IEEE 802.11 Log" Status="Disable" Type="Additional"/>
+<Log FileName="OSPF_LOG" DisplayName="OSPF Log" Status="Disable" Type="Additional"/>
+<Log FileName="OSPF_HELLO_LOG" DisplayName="OSPF Hello Log" Status="Disable" Type="Additional"/>
+<Log FileName="TCP_LOG" DisplayName="TCP Log" Status="Disable" Type="Additional"/>
+<Log FileName="MOBILITY_LOG" DisplayName="Mobility Log" Status="Disable" Type="Main"/>
+</SPECIFIC_NETWORK_BASED>
+<SPECIFIC_NETWORK_BASED INCLUDE="NONE" VALUES="LTE">
+<Log FileName="LTENR_Radio_Measurements_Log" DisplayName="LTENR Radio Measurements Log" Status="Disable" Type="Main"/>
+<Log FileName="LTENR_Radio_Resource_Allocation" DisplayName="LTENR Resource Allocation Log" Status="Disable" Type="Main"/>
+<Log FileName="LTENR_HANDOVER_TTT_LOG" DisplayName="LTENR Handover TTT Log" Status="Disable" Type="Main"/>
+<Log FileName="LTENR_CODEBLOCK_LOG" DisplayName="LTENR Code Block Log" Status="Disable" Type="Main"/>	
+<Log FileName="LTENR_OLLA_LOG" DisplayName="LTENR OLLA Log" Status="Disable" Type="Main"/>
+<Log FileName="IEEE_802_11_RADIO_MEASUREMENTS_LOG" DisplayName="IEEE802.11 Radio Measurements Log" Status="Disable" Type="Additional"/>
+<Log FileName="IEEE802_11_BACKOFF_LOG" DisplayName="IEEE 802.11 Backoff Log" Status="Disable" Type="Additional"/>
+<Log FileName="IEEE802_11_LOG" DisplayName="IEEE 802.11 Log" Status="Disable" Type="Additional"/>
+<Log FileName="OSPF_LOG" DisplayName="OSPF Log" Status="Disable" Type="Additional"/>
+<Log FileName="OSPF_HELLO_LOG" DisplayName="OSPF Hello Log" Status="Disable" Type="Additional"/>
+<Log FileName="TCP_LOG" DisplayName="TCP Log" Status="Disable" Type="Additional"/>
+<Log FileName="MOBILITY_LOG" DisplayName="Mobility Log" Status="Disable" Type="Main"/>
+</SPECIFIC_NETWORK_BASED>
+<SPECIFIC_NETWORK_BASED INCLUDE="NONE" VALUES="VANET">
+<Log FileName="IEEE_802_11_RADIO_MEASUREMENTS_LOG" DisplayName="IEEE802.11 Radio Measurements Log" Status="Disable" Type="Main"/>
+<Log FileName="IEEE802_11_BACKOFF_LOG" DisplayName="IEEE 802.11 Backoff Log" Status="Disable" Type="Main"/>
+<Log FileName="IEEE802_11_LOG" DisplayName="IEEE 802.11 Log" Status="Disable" Type="Main"/>
+<Log FileName="OSPF_LOG" DisplayName="OSPF Log" Status="Disable" Type="Additional"/>
+<Log FileName="OSPF_HELLO_LOG" DisplayName="OSPF Hello Log" Status="Disable" Type="Additional"/>
+<Log FileName="TCP_LOG" DisplayName="TCP Log" Status="Disable" Type="Additional"/>
+ <Log FileName="MOBILITY_LOG" DisplayName="Mobility Log" Status="Disable" Type="Main"/>
+</SPECIFIC_NETWORK_BASED>
+<SPECIFIC_NETWORK_BASED INCLUDE="NONE" VALUES="Satellite_Communication_Networks">
+<Log FileName="SATELLITE_LOG" DisplayName="Satellite Log" Status="Disable" Type="Main"/>
+<Log FileName="SATELLITE_PROPAGATION_LOG" DisplayName="Satellite Propagation Log" Status="Disable" Type="Main"/>
+<Log FileName="IEEE_802_11_RADIO_MEASUREMENTS_LOG" DisplayName="IEEE802.11 Radio Measurements Log" Status="Disable" Type="Additional"/>
+<Log FileName="IEEE802_11_BACKOFF_LOG" DisplayName="IEEE 802.11 Backoff Log" Status="Disable" Type="Additional"/>
+<Log FileName="IEEE802_11_LOG" DisplayName="IEEE 802.11 Log" Status="Disable" Type="Additional"/>
+<Log FileName="OSPF_LOG" DisplayName="OSPF Log" Status="Disable" Type="Additional"/>
+<Log FileName="OSPF_HELLO_LOG" DisplayName="OSPF Hello Log" Status="Disable" Type="Additional"/>
+<Log FileName="TCP_LOG" DisplayName="TCP Log" Status="Disable" Type="Additional"/>
+</SPECIFIC_NETWORK_BASED>
+<SPECIFIC_NETWORK_BASED INCLUDE="NONE" VALUES="UWAN">
+<Log FileName="ACOUSTIC_MEASUREMENTS_LOG" DisplayName="Acoustic Measurements Log" Status="Disable" Type="Main"/>
+</SPECIFIC_NETWORK_BASED>
+<SPECIFIC_NETWORK_BASED INCLUDE="NONE" VALUES="TDMA_Radio_Networks">
+<Log FileName="DTDMA_RADIO_MEASUREMENTS_LOG" DisplayName="DTDMA Radio Measurements Log" Status="Disable" Type="Main"/>
+<Log FileName="TDMA_RADIO_MEASUREMENTS_LOG" DisplayName="TDMA Radio Measurements Log" Status="Disable" Type="Main"/>
+<Log FileName="OSPF_LOG" DisplayName="OSPF Log" Status="Disable" Type="Additional"/>
+<Log FileName="OSPF_HELLO_LOG" DisplayName="OSPF Hello Log" Status="Disable" Type="Additional"/>
+<Log FileName="TCP_LOG" DisplayName="TCP Log" Status="Disable" Type="Additional"/>
+</SPECIFIC_NETWORK_BASED>
+</TETCOS_NETSIM>
